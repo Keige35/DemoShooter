@@ -14,9 +14,9 @@ TagManager:
   - UI
   - DestroyObject
   - DestroyChildObject
-  - 
-  - 
-  - 
+  - Player
+  - IgnorDecoration
+  - Decoration
   - 
   - 
   - 
