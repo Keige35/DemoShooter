@@ -17,6 +17,12 @@ public class SingleShot : BulletMain
             {
                 damageable.TakeDamage(damage);
             }
+
+            var rigidbody = hit.transform.GetComponent<Rigidbody>();
+            if(rigidbody != null)
+            {
+                rigidbody.AddForce(hit.normal * -155);
+            }
         }
     }
 }
